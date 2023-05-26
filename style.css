@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Questrial', sans-serif;
 }
+
 body {
   height: 100vh;
   background: linear-gradient(#000000 50%, #ffb92a 50%);
@@ -26,12 +29,12 @@ body {
   grid-template-columns: 9fr 3fr;
   gap: 1.2em;
 }
-  .search-container input,
-  .search-container button {
-    font-size: 0.9em;
-    outline: none;
-    border-radius: 0.3em;
-  }
+.search-container input,
+.search-container button {
+  font-size: 0.9em;
+  outline: none;
+  border-radius: 0.3em;
+}
   .search-container input {
     background-color: transparent;
     border: 1px solid #a0a0a0;
@@ -127,3 +130,5 @@ body {
       max-height: 10.8em;
     }
   }
+
+
